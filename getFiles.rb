@@ -13,7 +13,7 @@ def requireManyRubyFiles(folderArray)
   # Calls a getFiles for all folder names within the array
 
   folderArray.each do |n|
-    requireRubyFiles(x)
+    requireRubyFiles(n)
   end
 end
 
